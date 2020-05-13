@@ -1,0 +1,55 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: #94999d;
+  color: white;
+}
+
+#navbar {
+  background-color: #00ddd7;
+  padding: 20px;
+  overflow: auto;
+  position: fixed;
+  min-width: 290px;
+  overflow: auto;
+  top: 0px;
+  left: 0px;
+  width: 230px;
+  height: 100%;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px){
+  #navbar {
+  position: absolute;  
+  max-height: 200px;
+  width: 100%;
+  }
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 220px;
+  }
+  code {
+    width: 100%;
+  }
+}
+
+
+#navbar a {
+ color: white;
+  text-decoration: none;
+}
+
+
+h2 {
+  color: #00ddd7;
+}
+
+code {
+  background-color: #87a500;
+  padding: 10px;
+}
